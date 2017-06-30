@@ -1,0 +1,40 @@
+{
+  "name": "6-gabber-twitter",
+  "version": "0.0.1",
+  "description": "Gabber Twitter Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarmstrongiv/6-gabber-twitter.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Sessions",
+    "Validations",
+    "Databases"
+  ],
+  "jshintConfig": {
+    "esversion": 6,
+    "laxcomma": true
+  },
+  "author": "John Armstrong",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jlarmstrongiv/6-gabber-twitter/issues"
+  },
+  "homepage": "https://github.com/jlarmstrongiv/6-gabber-twitter#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.0",
+    "mustache-express": "^1.2.5",
+    "parseurl": "^1.3.1",
+    "pg": "^6.4.0",
+    "sequelize": "^4.2.1"
+  }
+}
